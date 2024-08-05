@@ -18,20 +18,40 @@
   "cells": [
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 4,
       "metadata": {
         "id": "xkNkwqhgexEm",
-        "cellView": "form"
+        "cellView": "form",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "4d30d992-b459-403e-c2f3-a767cf8ba436"
       },
-      "outputs": [],
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cloning into 'UPLODER-1'...\n",
+            "remote: Enumerating objects: 25, done.\u001b[K\n",
+            "remote: Counting objects: 100% (25/25), done.\u001b[K\n",
+            "remote: Compressing objects: 100% (21/21), done.\u001b[K\n",
+            "remote: Total 25 (delta 4), reused 0 (delta 0), pack-reused 0\u001b[K\n",
+            "Receiving objects: 100% (25/25), 20.81 KiB | 2.97 MiB/s, done.\n",
+            "Resolving deltas: 100% (4/4), done.\n",
+            "Done\n"
+          ]
+        }
+      ],
       "source": [
         "# @title APPX-UPLODER-V1\n",
         "from IPython.display import clear_output\n",
         "\n",
-        "!sudo apt-get update\n",
-        "clear_output()\n",
+        "# !sudo apt-get update\n",
+        "# clear_output()\n",
         "\n",
-        "!git clone https://ADARSH-KUMAR-24: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@github.com/ADARSH-KUMAR-24/UPLODER-1.git\n",
+        "!git clone https://ADARSH-KUMAR-24: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@github.com/ADARSH-KUMAR-24/UPLODER-1.git\n",
+        "\n",
         "clear_output()\n",
         "print(\"Done\")"
       ]
